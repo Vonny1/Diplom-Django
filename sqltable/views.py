@@ -13,6 +13,4 @@ def workertable(request):
 def workerfullinfotable(request):
       return HttpResponse(WorkerfullinfoResponse)
 
-def jsonmaslo(request):
-      return HttpResponse(jsontext)
 
